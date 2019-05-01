@@ -1,0 +1,21 @@
+ip: 192.168.10.99
+memory: 2048
+cpus: 1
+provider: virtualbox
+mysql8: true
+authorize: ~/.ssh/id_rsa.pub
+keys:
+    - ~/.ssh/id_rsa
+folders:
+    -
+        map: 'c:\work\homestead\www'
+        to: /home/vagrant/homestead.local
+sites:
+    -
+        map: homestead.local
+        to: /home/vagrant/homestead.local/public
+        php: "7.3"
+databases:
+    - homestead
+name: homestead
+hostname: homestead

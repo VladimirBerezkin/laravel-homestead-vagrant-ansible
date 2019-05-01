@@ -1,0 +1,40 @@
+---
+# Configuration file
+default_remote_user: "vagrant"
+
+# Virtual host settings
+vhost_alias: homestead.local
+
+# If you don't want the database to be created, you can simply remove the next line.
+vhost_db: homestead
+
+# The following 2 variables assume that the username is "vagrant".
+username: "vagrant"
+
+# If you change the username, please adjust the variables accordingly.
+sites_dir: "/home/vagrant"
+
+application_user: www-data
+
+#DB Settings
+db_port: 3306
+db_dbuser: homestead
+db_dbpass: secret
+
+#.env file settings
+app_env: "local"
+app_debug: "true"
+app_url: "http://homestead.local"
+
+cache_driver: "file"
+session_driver: "file"
+queue_driver: "sync"
+
+mail_driver: "smtp"
+mail_host: "smtp.mailtrap.io"
+mail_port: "2525"
+mail_username: ""
+mail_password: ""
+mail_encryption: "tls"
+
+sentry_dsn: ""

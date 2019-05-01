@@ -1,0 +1,10 @@
+---
+- name: NodeJS | Install Webpack and CrossEnv
+  shell: "npm install -g {{ item }} -y"
+  become: yes
+  become_method: sudo
+  with_items:
+    - npm
+    - cross-env
+    - webpack
+    - webpack-cli

@@ -1,0 +1,15 @@
+---
+- hosts: all
+
+  vars_files:
+    - settings.yml
+
+  remote_user: "{{ default_remote_user }}"
+  become: yes
+
+  roles:
+    - base
+    - nginx
+    - php
+    - front
+    - environment
