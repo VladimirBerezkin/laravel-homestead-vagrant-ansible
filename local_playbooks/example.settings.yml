@@ -18,8 +18,8 @@ application_user: www-data
 
 #DB Settings
 db_port: 3306
-db_dbuser: homestead
-db_dbpass: secret
+db_user: homestead
+db_pass: secret
 
 #.env file settings
 app_env: "local"

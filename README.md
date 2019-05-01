@@ -2,7 +2,8 @@
 This is a boilerplate for developing PHP applications based on Laravel Framework. 
 
 Package includes Laravel Homestead v.8.4, fresh install of Laravel Framework v.5.8.15 (with removed frontend scaffolding) and playbooks for Ansible provisioning.
-By default uses PHP v.7.3, Mysql v.8, this can be changed in your Homestead.yaml file.  
+By default uses PHP v.7.3, Mysql v.8, this can be changed in your Homestead.yaml file. 
+Application located in `www` folder. 
 
 ## Setup steps (tested on Widows 10) ##
 
