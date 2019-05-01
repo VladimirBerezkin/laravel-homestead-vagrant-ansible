@@ -5,6 +5,10 @@ Package includes Laravel Homestead v.8.4, fresh install of Laravel Framework v.5
 By default uses PHP v.7.3, Mysql v.8, this can be changed in your Homestead.yaml file. 
 Application located in `www` folder. 
 
+[Docs for Laravel Homestead](https://laravel.com/docs/5.8/homestead)
+
+[Docs for Ansible](https://devdocs.io/ansible~2.7/)
+
 ## Setup steps (tested on Widows 10) ##
 
 1) Make sure you have installed latest versions of Vagrant and Virtualbox. Also PHP and Composer needs to be installed already on your host machine. 

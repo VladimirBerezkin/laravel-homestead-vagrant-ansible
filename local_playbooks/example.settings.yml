@@ -28,7 +28,7 @@ app_url: "http://homestead.local"
 
 cache_driver: "file"
 session_driver: "file"
-queue_driver: "sync"
+queue_connection: "sync"
 
 mail_driver: "smtp"
 mail_host: "smtp.mailtrap.io"
