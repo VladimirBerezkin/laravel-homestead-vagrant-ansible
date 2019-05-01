@@ -25,6 +25,8 @@ Application located in `www` folder.
 
 9) To login via ssh simply type `vagrant ssh`
 
+10) To run playbooks type `vagrant provision`
+
 ### In case of errors with Vagrant ###
 1) Install latest versions of Vagrant and Virtualbox
 
