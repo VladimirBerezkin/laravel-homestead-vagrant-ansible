@@ -14,7 +14,6 @@ sites:
     -
         map: homestead.local
         to: /home/vagrant/homestead.local/public
-        php: "7.3"
 databases:
     - homestead
 name: homestead
